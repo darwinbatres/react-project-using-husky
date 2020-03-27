@@ -48,8 +48,7 @@
   },
   "lint-staged": {
     "*.{js,md,css,html}": [
-      "prettier --trailing-comma es5 --single-quote --write",
-      "git add"
+      "prettier --trailing-comma es5 --single-quote --write"
     ],
     "npm.lock": [
       "git rm --cached"
