@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Counter = () => {
   const [counter, setCounter] = React.useState(0);
@@ -12,21 +12,21 @@ const Counter = () => {
   }
 
   const values = [
-    '1',
+    "1",
     2,
-    '4',
-    '5',
-    'something else',
-    '1',
+    "4",
+    "5",
+    "something else",
+    "1",
     2,
-    '4',
-    '5',
-    'something else',
-    '1',
+    "4",
+    "5",
+    "something else",
+    "1",
     2,
-    '4',
-    '5',
-    'something else',
+    "4",
+    "5",
+    "something else",
   ];
 
   return (
