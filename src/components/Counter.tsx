@@ -11,6 +11,8 @@ const Counter = () => {
     setCounter(counter - 1);
   }
 
+  const values = ["1", 2, "4", "5", "something else"];
+
   return (
     <div>
       <p>Hello from Counter component</p>
