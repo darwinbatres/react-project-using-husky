@@ -47,7 +47,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,md,css,html}": [
+    "*.{js,md,css,html,tsx}": [
       "prettier --write"
     ],
     "npm.lock": [
