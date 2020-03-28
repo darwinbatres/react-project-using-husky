@@ -22,6 +22,7 @@ module.exports = {
     quotes: ["error", "double"],
     "comma-dangle": ["error", "never"],
     "arrow-parens": ["error", "as-needed"],
+    "react/jsx-one-expression-per-line": "error",
     "react/jsx-filename-extension": [
       1,
       { extensions: [".js", ".jsx", ".tsx"] },
