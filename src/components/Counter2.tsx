@@ -31,6 +31,10 @@ function Counter() {
     <div>
       <p>Counter from Counter2 component</p>
       <p>Counter: {counter}</p>
+      <p>Counter: {counter}</p>
+      <p>Counter: {counter}</p>
+      <p>Counter: {counter}</p>
+      <p>Counter: {counter}</p>
       <button type="button" onClick={increaseCounter}>
         Increase++
       </button>
