@@ -11,6 +11,10 @@ function Counter() {
     setCounter(counter - 1);
   }
 
+  function multiplyTwiceCounter() {
+    setCounter(counter * 2);
+  }
+
   return (
     <div>
       <p>Counter from Counter2 component</p>
@@ -23,6 +27,9 @@ function Counter() {
       </button>
       <button type="button" onClick={decreaseCounter}>
         Decrease--
+      </button>
+      <button type="button" onClick={multiplyTwiceCounter}>
+        Duplicate
       </button>
     </div>
   );
