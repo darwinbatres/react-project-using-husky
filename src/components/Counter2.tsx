@@ -23,6 +23,10 @@ function Counter() {
     setCounter(counter * 3);
   }
 
+  function multiplyTwiceCounter4() {
+    setCounter(counter * 4);
+  }
+
   return (
     <div>
       <p>Counter from Counter2 component</p>
@@ -44,6 +48,9 @@ function Counter() {
       </button>
       <button type="button" onClick={multiplyTwiceCounter3}>
         Tripicate2
+      </button>
+      <button type="button" onClick={multiplyTwiceCounter4}>
+        Tripicate3
       </button>
     </div>
   );
