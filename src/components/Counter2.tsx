@@ -7,6 +7,10 @@ function Counter() {
     setCounter(counter + 1);
   }
 
+  function decreaseCounter() {
+    setCounter(counter - 1);
+  }
+
   return (
     <div>
       <p>Counter from Counter2 component</p>
@@ -16,6 +20,9 @@ function Counter() {
       </p>
       <button type="button" onClick={increaseCounter}>
         Increase++
+      </button>
+      <button type="button" onClick={decreaseCounter}>
+        Decrease--
       </button>
     </div>
   );
