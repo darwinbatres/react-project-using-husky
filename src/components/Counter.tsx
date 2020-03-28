@@ -17,6 +17,7 @@ const Counter = () => {
       <p>Hello from Counter component</p>
       <p>
         Counter:
+        {" "}
         {counter}
       </p>
       <p>
