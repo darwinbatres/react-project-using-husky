@@ -21,6 +21,7 @@ const Counter = () => {
       </p>
       <p>
         Counter:
+        {" "}
         {counter}
       </p>
       <button type="button" onClick={increaseCounter}>
