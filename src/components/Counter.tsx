@@ -16,9 +16,7 @@ const Counter = () => {
       <p>Hello from Counter component</p>
       <p>
         Counter:
-        {counter}
-        {" "}
-        !
+        {counter} !
       </p>
       <button type="button" onClick={increaseCounter}>
         Increase ++

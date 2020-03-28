@@ -56,7 +56,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css}": [
-      "eslint --fix"
+      "prettier --write"
     ],
     "npm.lock": [
       "git rm --cached"
