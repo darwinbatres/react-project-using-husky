@@ -17,12 +17,6 @@ const Counter = () => {
       <p>Hello from Counter component</p>
       <p>
         Counter:
-        {" "}
-        {counter}
-      </p>
-      <p>
-        Counter:
-        {" "}
         {counter}
       </p>
       <button type="button" onClick={increaseCounter}>
