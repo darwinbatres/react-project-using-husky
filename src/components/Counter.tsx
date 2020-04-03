@@ -20,7 +20,7 @@ const Counter = () => {
         {counter}
       </p>
       <button type="button" onClick={increaseCounter}>
-        Increase ++
+        Increase ++++
       </button>
       <button type="button" onClick={decreaseCounter}>
         Decrease --
